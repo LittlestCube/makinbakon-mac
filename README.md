@@ -1,26 +1,27 @@
-##############################################################################
-#                         Makin' Bakon Typing Tutor                          #
-#		               version 0.3.2                                 #
-#		    Copyright (C) 2002 2003 Stephen Webster                  #
-#                                                                            #
-#  This program is free software; you can redistribute it and/or modify it   #
-#  under the terms of the GNU General Public License as published by the     #
-#  Free Software Foundation; either version 2 of the License, or (at your    #
-#  option) any later version.                                                #
-#                                                                            #
-#  This program is distributed in the hope that it will be useful, but       # 
-#  WITHOUT ANY WARRANTY; without even the implied warranty of                #
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                      #
-#                                                                            #
-#  See the GNU General Public License for more details.                      #
-#                                                                            #
-#  You should have received a copy of the GNU General Public License along   #
-#  with this program; if not, write to the Free Software Foundation, Inc.,   #
-#  59 Temple Place, Suite 330, Boston, MA 0.1.2-1307 USA                     #
-#                                                                            #
-#  Please read the COPYING file for the complete license. The copyright      #
-#  holder can be contacted via email: moonunit@ukonline.co.uk                #
-##############################################################################
+Original README, prettied up with markdown:
+                                                                              
+#                         Makin' Bakon Typing Tutor                           
+#                              version 0.3.2                                  
+#                   Copyright (C) 2002 2003 Stephen Webster                   
+                                                                              
+   This program is free software; you can redistribute it and/or modify it    
+   under the terms of the GNU General Public License as published by the      
+   Free Software Foundation; either version 2 of the License, or (at your     
+   option) any later version.                                                 
+                                                                              
+   This program is distributed in the hope that it will be useful, but         
+   WITHOUT ANY WARRANTY; without even the implied warranty of                 
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                       
+                                                                              
+   See the GNU General Public License for more details.                       
+                                                                              
+   You should have received a copy of the GNU General Public License along    
+   with this program; if not, write to the Free Software Foundation, Inc.,    
+   59 Temple Place, Suite 330, Boston, MA 0.1.2-1307 USA                      
+                                                                              
+   Please read the COPYING file for the complete license. The copyright       
+   holder can be contacted via email: moonunit@ukonline.co.uk                 
+                                                                              
 
 * 1: Warning
 * 2: A brief history
@@ -31,13 +32,13 @@
 * 7: Getting fortune
 * 8: Acknowledgements
 
-1: ------------------------------ WARNING ------------------------------------
+# WARNING
 
 Makin' Bakon uses Fortune epigrams for some of its text. The epigrams chosen
 are sometimes of a politically or sexually insensative nature. If you are
 worried about being offended then please use another typing tutor...
 
-2: ----------------- A very brief history of Makin' Bakon --------------------
+# A very brief history of Makin' Bakon
 
 The Makin' Bakon Typing Tutor started life, like all worthy ideas, down the
 pub. I was looking for a project and a close friend suggested I do a typing
@@ -54,7 +55,7 @@ tutor stuff.
 If you like fortune and the idea of a typing tutor that uses them, and you
 need to learn typing to a professional standard, then read on...
 
-3: ---------------------------- Installation ---------------------------------
+# Installation
 
 If you want to, copy the BAKONRC file to .bakonrc in your home directory. If
 you don't want then a copy will be created for you when you first start-up
@@ -63,7 +64,7 @@ the program. Read the INSTALL file for further instructions.
 NOTE: You must have the fortune program and the curses development libs
 installed before you can compile Makin' Bakon. 
 
-4: ------------------------------- Usage -------------------------------------
+# Usage
 
 For the seriously impatient, type 'bakon' (minus the quotes, Doh!) and any
 command-line options at the prompt and all will be revealed, though I would
@@ -87,7 +88,7 @@ Makin bakon adds the following to your home directory...
 ~/.pigsty/scores   -  holds your usage details
 ~/.pigsty/epigram  -  temp file holds fortune epigrams
 
-5: ------------------------ Command line options -----------------------------
+# Command line options
 
 Color and keyboard type can be defined on the command line, or you can set
 defaults in the ~/.bakonrc file. Command line options are as follows: 
@@ -112,7 +113,7 @@ You can choose between two keyboard types, American and British: us or uk.
 For a complete list of choices, just type "bakon -h". Note that command line
 options override ~/.bakonrc defaults.
 
-6: ------------------------- Bugs and De-bugging -----------------------------
+# Bugs and De-bugging
 
 a) If something goes horribly wrong and your terminal/console freezes, you
    can kill Makin' Bakon by opening up another terminal/console and typing
@@ -159,11 +160,11 @@ e) Makin' Bakon can be compiled with the -g flag, which means that you can
 
    Send me the text file, with curses and term details to the address below.
    
-   ###########################################################################
-   #              Send bug reports to: moonunit@ukonline.co.uk               #
-   ###########################################################################
+                                                                              
+                  Send bug reports to: moonunit@ukonline.co.uk                
+                                                                              
 
-7: --------------------------- Getting Fortune -------------------------------
+# Getting Fortune
 
 You will need the Fortune program before you can install Makin' Bakon. It is
 usually included as part of your distribution.
@@ -198,7 +199,7 @@ Or... you can include it in your path by adding a line to your ~/.profile or
     
     PATH=$PATH":/usr/local/games"
 
-8: -------------------------- Acknowledgements -------------------------------
+# Acknowledgements
 
 Thanks to Steve Peck. It was all his idea. He made me do it! He's the real
 brains behind this, no really...
