@@ -1,0 +1,52 @@
+Makin' Bakon Typing Tutor * version 0.3.2
+Copyright (C) Stephen Webster 2002 2003
+
+--------------------------- release version 0.3.2 ----------------------------
+1: Removed ios::in from ofstream declarations in pigsty.cpp, so Makin' Bakon
+   now opens scores file properly during start-up. 
+2: Updated copyright to include year 2003.
+--------------------------- release version 0.3.1 ----------------------------
+1: Minor code alterations so that it compiles with GNU GCC 3.2.
+--------------------------- release version 0.3.0 ----------------------------
+1: Accepts defaults from ~/.bakonrc file for keyboard type, foreground,
+   background and bold colors.
+2: Accpts command-line options which override rc file defaults.
+3: Introduced a new fortune based lesson strictly from offensive archives.
+4: Fortune based lessons can now only change lesson stats after lesson_length
+   characters have been typed (rather than after every line).
+5: Removed preferences utility for keyboard type as this is now set using
+   rc file or command-line options.
+6: Bonus point system awards one wpm every time target speed is passed.    
+7: A lot of the code has been overhauled and the error handling has been
+   greatly improved.
+8: Default lessons have been divided into groups, effectively halving the
+   size fo each lesson. This makes the lessons both shorter and more concise.
+--------------------------- release version 0.2.2 ----------------------------
+1. Makefile now checks for curses includes.
+2. Minor changes to default lesson texts.
+--------------------------- release version 0.2.1 ----------------------------
+1. Added hand-rolled poetry, startrek and offensive fortune archives.
+2. Greatly improved Makefile.
+3. Paths to data and fortune archive files are now compile-time defined.
+4. Fixed bug that re-paints the virtual keyboard in lesson screens after
+   choosing '(R)epeat lesson' or '(N)ext lesson'.
+--------------------------- release version 0.2.0 ----------------------------
+1: Statistics engine now outputs a running total of the users typing speed
+   and accuracy.
+2: The lesson screen now includes a virtual keyboard for displaying finger
+   placement (layouts reflect keyboard types).
+3: [Anorak Alert!] Classes that were almost continuosly in scope, or those
+   with a lot of static variables, have now become singletons, thus we no
+   longer have to keep track of static initialisations.
+4: Wpm score now only gets written to defaults file if it is greater than
+   the previous session score.
+5: [Anorak Alert!] Makefile now checks for fortune databases before compiling
+6: The statistics engine deducts 1 wpm for any number of mistakes in a word,
+   where a word is 5 characters.
+7: [Anorak Alert!] Fixed bug that caused intermittent core dump in FreeBSD
+   (The last element of the main menu wasn't set to NULL, ooops...)
+--------------------------- release version 0.1.1 ----------------------------
+1: Fixed bug in Makefile so that program compiles properly in FreeBSD.
+2: [Anorak Alert!] Moved <time.h> header from stats.cpp to stats.h so that
+   program compiles properly in FreeBSD.
+------------------------------------------------------------------------------

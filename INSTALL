@@ -1,0 +1,86 @@
+Makin' Bakon Typing Tutor * version 0.3.2
+Copyright (C) Stephen Webster 2002 2003
+
+------------------------------- FreeBSD Users --------------------------------
+
+Makin' Bakon needs GNU Make, so you'll have to replace the following 'make'
+commands with 'gmake'.
+
+-------------------------- Installing Makin' Bakon ---------------------------
+
+Just follow the instructions and all should go well. However, if make does
+bail out with an error then see the checklist at the end of this file...
+
+1: To install Makin' Bakon, untar the zip file like this:
+   tar xvzf makinbakon<version>.tar.gz
+
+2: cd into the makinbakon directory and type 'make'
+
+3: Become root user and type 'make install'. (If you're installing on top
+   of an older copy then type 'make uninstall' first.)
+
+4: Become user again.
+
+5: If you want to clean out the src directory of object and executable files
+   then just type 'make clean'.
+
+6: To summarise:
+
+   tar xvzf makinbakon.tar.gz
+   cd makinbakon
+   make
+   become root
+   ('make uninstall' if you have previously installed Makin' Bakon)
+   make install
+   become user again
+   make clean
+   
+7: Type 'make help' for a brief description of all the above commands
+
+All docs are copied to /usr/doc/makinbakon
+
+   The fortune archives are copied to /usr/local/makinbakon/archives
+   The datafiles are copied to /usr/local/makinbakon
+   The executable is copied to /usr/local/bin/bakon
+   
+If you want, copy the BAKONRC file to .bakonrc in your home directory. If
+you don't want, one will be created for you on first start-up.
+   
+To use, read the section on command-line options in the README, then just
+type 'bakon' at the command prompt, followed by any options.   
+
+---------------------------- Error check List --------------------------------
+
+Make exits with one of the following errors...
+
+1. "You must install fortune before compiling Makin' Bakon!"
+
+   Fortune is either not installed on your system or is not in your PATH.
+   You'll find download suggestions in the README. If you do have fortune
+   but for some reason it isn't in your PATH (do 'echo $PATH') then you can
+   include it in your ~/.profile or ~/.bashrc. For example, if fortune was
+   found in /usr/local/games/fortune, then you could add the following line:
+   
+   PATH=$PATH":/usr/local/games"
+   
+2. "Please install the curses development package first!"
+   
+   The Makefile searches for the curses development files in '/usr/include',
+   which is where g++ expects to find include files. If it doesn't find
+   them it will ask you to install the curses development package.
+   
+3. " 'strfile' not found. Do 'make MY_PATH=/path/to/strfile' "
+
+   Fortune uses the strfile command to create its .dat archive files and so
+   does Makin' Bakon. (It comes as part of the fortune program.) Some Linux
+   distributions don't always put 'strfile' in your PATH. Although the
+   Makefile checks loads of different paths for 'strfile' it may still
+   escape detection. Do 'whereis -b strfile' or 'locate strfile' and copy
+   the executable path into the instruction like so...
+    
+   make MY_PATH=/usr/local/strange/bin/strfile
+
+Other errors should be self explanatory. If not, or if you have problems with
+any of the above, then don't hesitate to contact me:- moonunit@ukonline.co.uk
+   
+#------------- That's all there is to it. Enjoy Makin' Bakon! ---------------#

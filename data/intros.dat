@@ -1,0 +1,203 @@
+// Makin' Bakon Typing Tutor * version 0.3.2
+// Copyright (C) Stephen Webster 2002 2003
+// 
+// intros.dat -- The Makin' Bakon Menu Items
+//
+
+//1 Change Default
+If you have done some typing before and just want to brush up your skills
+then choose this option to reset your starting point to one of the later
+lessons, or if you need to review then you can go back a prior lesson.
+
+//2 Humorous Pig
+This lesson is courtesy of the Fortune archive. Some of these epigrams
+contain quotation marks, dashes and exclamation marks. Pig wont like it one
+bit if your wpm score plummets because you haven't done any of the default
+exercises, especially the symbol exercises, and can't find the keys quickly
+enough...
+
+//3 Poetic Pig
+A lesson consisting of rude rhymes and limericks from the Fortune offensive
+archive. Don't let the thought of poetry lull you into a false sense of
+security, however, they're full to finger scrambling surprises! Pig will
+soon become a packet of streaky if your wpm score plummets because you
+haven't done any of the default exercises... 
+
+//4 StarTrek Pig
+And another fortune lesson, this time from the StarTrek archive. These
+epigrams contain a lot of Stardates, i.e. "Captains Log, Stardate 4385.3 ...",
+so they make good number practice. Be sure that you're up to it otherwise
+your wpm score will make a large hole in the space-time continuum...
+
+//5 Offensive Pig
+Welcome to the Fortune Interzone... Only the worst from the fortune offensive
+archives have made it here. Then again, 'offensive' really is just a matter of
+opinion, isn't it? You decide. Either way, be careful with those fingers,
+darling, or you could end up making more than bakon!
+
+//6 Distracted Pig
+This lesson contains a mixture of offensive epigrams, rude rhymes and
+memorable quotes from Kirk and the StarTrek crew. These will really get your
+fingers in a twist. Pig says to remember that you could lose your hard won
+wpm score if you haven't done the default exercises, you have been warned...
+
+//7 Speed Test
+A selection of witty epigrams from the Fortune Database make up these random
+speed tests. Each is less than 500 characters and devoid of any unnecessary
+symbols. The rules are simple, type as fast and as accurately as you can and
+try not to moan to loudly when you're fingers tie themselves into knots.
+
+//8 Can Pig Help?
+This is the Makin' Bakon Online Help. It is very short and Pig would really
+appreciate you for reading it if you've never used Makin' Bakon before.
+Well he would, wouldn't he! He'll be a packet of streaky of you're too slow
+and muck things up, and who's fault will that be? 
+
+//9 Quit the Pig!
+Don't, under any circumstances, quit Makin' Bakon if you haven't reached
+your wpm target! If you do, Pig will soon be making an appearance in the
+cooler cabinets of your local supermarket, and we're not talking advertising
+work here, we're talking slicing, dicing and plastic wrap...
+
+//10 The Home Keys
+The home keys are the anchor keys of the QWERTY keyboard. After typing a
+letter or word you should always return to the home keys. Place your your
+left index finger on the F, your right index finger on the J and your
+remaining fingers on the adjacent keys. Use your thumb to press the space
+bar. It may help to say each letter as you press it and to "think" the
+finger you use.
+
+//11 Focus keys G/H
+This lesson focuses on the G and H keys. You press these keys with your left
+and right index fingers. Always "feel" a new reach before starting a new key
+and return to the Home Key after it has been pressed. Most importantly, don't
+look at the keyboard once you start!
+
+//12 Focus keys E/O
+This lesson focuses on the E and O keys. You press the E with your left
+middle finger and the O with your right ring finger. Remember to always 
+"feel" the reach before starting a new key and return to the Home Key after
+it has been pressed. Practice your reach first and try not to look at the
+keyboard when you start the exercise.
+
+//13 Capitals and '.'
+This lesson focuses on Capital letters and the full stop. If you're keying a
+left hand capital then hold down the right shift key with your pinky, and
+vice-versa for right-hand capitals. The full stop is pressed with your right
+ring finger. Practice the reaches before you start, then try not to look at
+the keyboard.
+
+//14 Focus keys R/I
+This lesson focuses on the R and I keys. You press the R with your left
+index finger and the I with your right middle finger. Remember to always
+"feel" the reach before starting a new key and return to the Home Key after
+it has been pressed. Practice your reach first and try not to look at the
+keyboard when you start the exercise.
+
+//15 Focus keys W/U
+This lesson focuses on the W and U keys. You press the W with your left
+ring finger and the U with your right index finger. Remember to always 
+"feel" the reach before starting a new key and return to the Home Key after
+it has been pressed. Practice your reach first and try not to look at the
+keyboard when you start the exercise. 
+
+//16 Focus keys Q/P
+This lesson focuses on the Q and P keys. You press the Q with your left
+pinky and the P with your right pinky. Remember to always "feel" the reach
+before starting a new key and return to the Home Key after it has been 
+pressed. Practice your reach first and try not to look at the keyboard when
+you start the exercise.
+
+//17 Focus keys T/Y
+This lesson focuses on the T and Y keys. You press the T with your left
+index finger and the Y with your right index finger. Remember to always 
+"feel" the reach before starting a new key and return to the Home Key after
+it has been pressed. Practice your reach first and try not to look at the
+keyboard when you start the exercise.
+
+//18 Focus keys N/V
+This lesson focuses on the N and V keys. You press the N with your right
+index finger and the V with your left index finger. Remember to always 
+"feel" the reach before starting a new key and return to the Home Key after
+it has been pressed. Practice your reach first and try not to look at the
+keyboard when you start the exercise.
+
+//19 Focus keys M/C
+This lesson focuses on the M and C keys. You press the M with your right
+index finger and the C with your left middle finger. Remember to always 
+"feel" the reach before starting a new key and return to the Home Key after
+it has been pressed. Practice your reach first and try not to look at the
+keyboard when you start the exercise.
+
+//20 Comma and Colon
+This lesson focuses on the Comma and Colon keys. You press the Comma with
+your right index finger and the Colon with your right pinky while holding
+down the shift key with your left pinky. Remember to always "feel" the reach
+before starting a new key and return to the Home Key after it has been 
+pressed. Try not to look at the keyboard when you start the exercise.
+
+//21 Focus keys B/X
+This lesson focuses on the B and X keys. You press the B with your left
+index finger and the X with your left ring finger. Remember to always 
+"feel" the reach before starting a new key and return to the Home Key after
+it has been pressed. Practice your reach first and try not to look at the
+keyboard when you start the exercise.
+
+//22 Focus keys Z/Dash
+The last of the letters only lessons focuses on the Z and Dash keys. You 
+press the Z with your left pinky and the dash with your right pinky.
+As always, remember to "feel" the reach and try not to look at the keyboard
+when you start the exercise.
+
+//23 Alphabet Soup
+Time to put into practice what you've learnt so far. Alphabet soup is just
+that. Type as fast and as accurately as you can. There are no surprises
+here, appart from the questionable content of what you're about to type!
+
+//24 Focus Keys 1/2/3
+This lesson focuses on the number keys 1, 2 and 3. You press the 1 with your
+left pinky, the 2 with your left ring finger and the 3 with your left middle
+finger. Remember to always "feel" the reach before starting a new key and
+return to the Home Key after it has been pressed. Practice your reach first
+and try not to look at the keyboard when you start the exercise.
+
+//25 Focus keys 4/5
+This lesson focuses on the number keys 4 and 5. You press both these keys
+with your left index finger. Remember to always "feel" the reach before
+starting a new key and return to the Home Key after it has been pressed.
+Practice your reach first and try not to look at the keyboard when you start
+the exercise.
+
+//26 Focus keys 6/7
+This lesson focuses on the number keys 6 and 7. You press both these keys
+with your right index finger. Remember to always "feel" the reach before
+starting a new key and return to the Home Key after it has been pressed.
+Practice your reach first and try not to look at the keyboard when you start
+the exercise.
+
+//27 Focus keys 8/9/0
+This lesson focuses on the number keys 8, 9 and 0. You press the 8 with your
+right middle finger, the 9 with your right ring finger and the 0 with your
+right pinky. Remember to always "feel" the reach before starting a new key
+and return to the Home Key after it has been pressed. Practice your reach
+first and try not to look at the keyboard when you start the exercise.
+
+//28 Symbol Madness 1
+This lesson focuses on the quotation marks, the '$' and the '%'. Remember
+to always "feel" the reach before starting a new key and return to the 
+Home Key after it has been pressed. Practice your reach first and try not
+to look at the keyboard when you start the exercise.
+
+//29 Symbol Madness 2
+This lesson focuses on the bracket keys, the '!' and the '?'. Remember to
+always "feel" the reach before starting a new key and return to the Home 
+Key after it has been pressed. Practice your reach first and try not to 
+look at the keyboard when you start the exercise.
+
+//30 The Test Lesson
+The home keys are the anchor keys of the QWERTY keyboard. After typing a
+letter or word you should always return to the home keys. Place your your
+left index finger on the F, your right index finger on the J and your
+remaining fingers on the adjacent keys. Use your thumb to press the space
+bar. It may help to say each letter as you press it and to "think" the
+finger you use.

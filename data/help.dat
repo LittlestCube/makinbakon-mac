@@ -1,0 +1,75 @@
+// Makin' Bakon Typing Tutor * version 0.3.2
+// Copyright (C) Stephen Webster 2002 2003
+//
+// help.dat -- The Makin' Bakon Help File
+//
+Pig grudgingly welcomes you to the Makin' Bakon typing tutor. If you want
+to save his bacon then you'll have to beat your target score, which isn't
+that easy, so please read these simple destructions carefully.
+
+1: Use the up and down arrow keys to navigate the menu. Use the page-up and
+page-down keys to take you to the beginning or end of the menu. Press the
+return key when you've made your choice. The letters in brackets are keyboard
+shortcuts. Press the letter that corresponds to the lesson you want. You can
+use upper and lower case letters for all the keyboard shortcuts.
+
+2: The first option in the menu is the default lesson. Each default lesson is
+designed to introduce you to various parts of the keyboard. Pig recommends
+that you follow the default lessons as you'll probably type faster that way. 
+
+3: The top window of the lesson screen displays the actual lesson, you know,
+the words you're supposed to type... Just type the letter under the cursor.
+
+4: The middle window in the lesson screen displays your scores (words per
+minute, accuracy and overall score for the session). To free Pig you will
+need to do better than your target score, which is displayed with the lesson
+title at the top of the screen. A bonus point is awarded if you beat your
+target score and wpm points are deducted if you make mistakes, so the best
+way to beat your target score is not to make too many mistakes...
+
+5: If you finish a lesson early your score will be that of the last completed
+lesson. (Remember that Pig has a vested interest in your score...)
+
+6: You can turn the scores window off with CNTRL+S. It will remain off
+throughout the session, mostly... Okay, you get to see how bad you're doing
+at the end of each lesson, but otherwise it stays off. You turn it back on
+again with CNTRL+S.
+
+7: Lesson shortcut keys are displayed at the bottom of the screen, so don't
+worry about remembering them. Don't forget that you can use both upper and
+lower case letters for all keyboard shortcuts. 
+
+8: The lower window in the lesson screen displays a virtual keyboard with
+highlighted finger positions and a finger positioning text inside the
+virtual spacebar. It will be a lot easier to save Pig in the long run if you
+make good use of this window when you first start to type. You can turn off
+the virtual keyboard with CNTRL+N. It will remain off throughout the session,
+or until you turn it back on again with CNTRL+N.
+
+9: The Fortune lessons (Humorous Pig, Poetic Pig, StarTrek Pig...) use
+epigrams from the Fortune program. Bear in mind that they contain numbers
+and symbols, so your score could be seriously depleted if you haven't first
+completed the default lessons!
+
+10: If you get to a lesson and you want to review the lesson instructions
+then press CNTRL+I. In fact you can do this at any time during a lesson
+as the timer is automatically paused. (So if your fingers get tired half way
+through a line then just press CNTRL+I!) Press CNTRL+I again to turn this
+window off, the timer will re-start as soon as you type the next letter.
+
+11: When you finish a lesson you can go straight onto the next lesson by
+pressing the 'N' key. Default lessons can be repeated by pressing the 'R'
+key.
+
+12: If the default lesson is too easy for you, or you want to revise some of
+the key presses, then you can change the default lesson group by choosing
+"Change Default" from the menu. Navigate as you did with the main menu,
+using the up/down, page-up/page-down keys. Press CNTRL+E if you go there by
+mistake or you were just curious.
+
+13: In the unlikely event that you want to quit the program, you can go back
+to the menu screen and choose "Quit The Pig!", or just press CTL-Q whenever
+you like, though Pig will be more than a little upset if you haven't reached
+your target. In fact he'll be a packet streaky!
+
+That's all there is to it. Pig wishes you every success. Have Fun...

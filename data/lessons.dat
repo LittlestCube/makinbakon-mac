@@ -1,0 +1,462 @@
+// Makin' Bakon Typing Tutor * version 0.3.2
+// Copyright (C) Stephen Webster 2002 2003
+//
+// lessons.dat -- The Makin' Bakon Lessons
+//
+
+//10 Home Keys
+aaa sss ddd fff jjj kkk lll ;;; asdfjkl;
+asdf jkl; asdf jkl; asdf jkl; asdf jkl;
+
+a as ass lass alas all fall falls flasks
+a ad add adds lads ask asks jaffa jaffas
+a as ass lass alas all fall falls flasks
+
+a as dad dads fads lad lads salad salads
+dads sad sad jaffa salad sad salads lads
+
+//11 Home Keys
+a sad lad; a sad dad; sad lass; all sad;
+flasks fall; lads fall; dads fall; alas;
+
+a jaffa salad; alaska salad; all salads;
+add a jaffa; add jaffa salad; a lad has
+a sad salad; sad dads sad jaffa salads;
+
+a sad lad; a sad dad; sad lass; all sad;
+flasks fall; lads fall; dads fall; alas;
+
+//12 Letters G and H
+ffg ffg ffg fgg fgg fgg fgf fgf fgf fggf
+ffg ffg ffg fgg fgg fgg fgf fgf fgf fggf
+
+fag fags gaff gaffs gad gads saga sagas;
+jag jags flag flags jag jags gala galas;
+ask slag glad glass lag lags gall galls;
+
+jjh jjh jjh jhh jhh jhh jhj jhj jhj jhhj
+jjh jjh jjh jhh jhh jhh jhj jhj jhj jhhj
+
+//13 Letters G and H
+has had hall halls sash lash flash slash
+ash hag hags shall half shah shahs allah
+jah has haka halls dash gash slash flash
+
+a lass has had a jaffa salad; ask a hag;
+slash all flash flags as sad shahs fall;
+
+dad has had half a flask; jag all flags;
+glass flasks shall fall as hags jag lags
+
+//14 Letters E and O
+dde dde dde dee dee dee ded ded ded deed
+dde dde dde dee dee dee ded ded ded deed
+
+deed seed heed dead deal fade jade shade
+ease less keel feel heel deaf leaf sheaf
+eggs legs kegs eels sake fake lake shake
+
+llo llo llo loo loo loo lol lol lol lool
+llo llo llo loo loo loo lol lol lol lool
+
+//15 Letters E and O
+do does of off dog jog fog log look hook
+go goes oh hod fod sod odd old sold gold
+so solo ho hog ode doe oak ego soak doll
+
+she looked so jaded as she jogged ahead;
+as she sold gold goods he fed a sad dog;
+
+he feels a fool as he loads glass dolls;
+she does good deeds; he sells fake jade;
+
+//16 Capitals and Full Stop
+aA; sS; dD; fF; gG; hH; Ale Sad Dad Fall
+Gala Ease Alas Seed Deed Food Goose Ella
+
+LLa kKa jJa hHa oOa Loss Keg Jade He Ode
+Lad Keel Joe Has Oak Log Koo Jed Had Ode
+LLa kKa jJa hHa oOa Loss Keg Jade He Ode
+
+ll. ll. ll. l.. l.. l.. l.l l.l l.l l..l
+ll. ll. ll. l.. l.. l.. l.l l.l l.l l..l
+
+//17 Capitals and Full Stop
+Ask. Look. See. Jog. Do. Hold. Ah. God.
+Floods shook Kos. All dead. A sad saga.
+
+Do a good deed. Also look good as gold.
+A glass flask falls as flash Jess flees.
+Jake sells egg; Della sells sea shells.
+
+Floods shook Kos. All dead. A sad saga.
+Do a good deed. Also look good as gold.
+
+//18 Letters R and I
+ffr ffr ffr frr frr frr frf frf frf frrf
+ffr ffr ffr frr frr frr frf frf frf frrf
+
+red rod far oar sore lore door fork dark
+are for her jar here hear dear deer free
+ear era err rag roof rear sear jeer jerk
+
+kki kki kki kii kii kii kik kik kik kiik
+kki kki kki kii kii kii kik kik kik kiik
+
+//19 Letters R and I
+kid did lid rid risk silk life girl jail
+his lie air aid laid raid said like fire
+sir fir ail oil fill kill hill ride oils
+
+Freddie adores Jillie for her fair hair.
+Lisa asked for silk roses for her dress.
+
+Ask Reggie for fried eggs or fried fish.
+Sarah had looked hard for her red glass.
+
+//20 Letters W and U
+ssw ssw ssw sww sww sww sws sws sws swws
+ssw ssw ssw sww sww sww sws sws sws swws
+
+was wed wig who were well wall will wake
+few sew sow how wire wear wore work show
+law saw jaw low flow week wife wide wood
+
+jju jju jju juu juu juu juj juj juj juuj
+jju jju jju juu juu juu juj juj juj juuj
+
+//21 Letters W and U
+jug jugs dull our ours dues would suffer
+hug hugs huge rug rugs duke issue refuse
+use uses used auk sure suds suede figure
+
+I worked a whole week for Will Rosewall.
+Lulu Rule was so sure of her good looks.
+
+He asked Widow Woodhall for gold jewels.
+Doug was well aware our fare was frugal.
+
+//22 Letters Q and P
+aaq aaq aaq aqq aqq aqq aqa aqa aqqa qaa
+aaq aaq aaq aqq aqq aqq aqa aqa aqqa qaa
+
+quads squad Jaques equal equals equalled
+queue quiff square quire liquor squiggle
+quirk squid squash squaw sequel squeaked
+
+;;p ;;p ;;p ;pp ;pp ;pp ;p; ;p; ;p; ;pp;
+;;p ;;p ;;p ;pp ;pp ;pp ;p; ;p; ;p; ;pp;
+
+//23 Letters Q and P
+pad paid pod pure gap gape hop hope rope
+pea pear peg pegs dip pass fop pale pill
+pig jeep par park rap wrap lip quip page
+
+Pippa has prepared all our April orders.
+Quaker Square has a row of queer houses.
+
+Please allow eual shares for all of us.
+Paula will require a well judged sequel.
+
+//24 Letters T and Y
+fft fft fft ftt ftt ftt ftf ftf ftf fttf
+fft fft fft ftt ftt ftt ftf ftf ftf fttf
+
+at the these left right fight start late
+it its that those deft state quite quote
+to too just stake stow their there plate
+
+jjy jjy jjy jyy jyy jyy jyj jyj jyj jyyj
+jjy jjy jjy jyy jyy jyy jyj jyj jyj jyyj
+
+//25 Letters T and Y
+yes year pay pray yet yard way sway stay
+say play joy ploy dry quay eye idly pity
+
+Take that registered letter to the post.
+They always like to take a July holiday.
+This year we will pay you a good salary.
+
+Twiggy tried quite hard yet just failed.
+We defy you to say what you really feel.
+
+//26 Letters N and V
+jjn jjn jjn jnn jnn jnn jnj jnj jnj jnnj
+jjn jjn jjn jnn jnn jnn jnj jnj jnj jnnj
+
+an any done under join noted until unite
+in win thin think none grown front spend
+no not know known seen queen lines young
+
+ffv ffv ffv fvv fvv fvv fvf fvf fvf fvvf
+ffv ffv ffv fvv fvv fvv fvf fvf fvf fvvf
+
+//27 Letters N and V
+first fires fine faint jive give gave given
+vine gift vile virgin grave grief fear vase
+
+Save faith safe phrase grain feign faint.
+No trains now run to Taunton on Tuesdays.
+She queried the June figures a week ago.
+
+Every five years the plots are revalued.
+Never look on revision as wasted effort.
+
+//28 Letters M and C
+jjm jjm jjm jmm jmm jmm jmj jmj jmj jmmj
+jjm jjm jjm jmm jmm jmm jmj jmj jmj jmmj
+
+am man men met mark from same name image
+me met arm aim harm form jump move madam
+my may him rim them mine whom some qualm
+
+ddc ddc ddc dcc dcc dcc dcd dcd dcd deed
+ddc ddc ddc dcc dcc dcc dcd dcd dcd deed
+
+//29 Letters M and C
+Ace ice act fact city could check cheque
+Cue cut arc cash jack count clear vacant
+
+Move the summer dance from May to August.
+We have not yet received our July quota.
+Come in March for the grandfather clock.
+
+In this case you cannot pick and choose.
+He is very interested in party politics.
+
+//30 Comma and Colon
+Kk,:kk,:kk, k,,:k,,:k,,:k,k k,k k,k k,,k
+Kk,:kk,:kk, k,,:k,,:k,,:k,k k,k k,k k,,k
+
+Mum reads The Daily Mail: Dad The Times.
+They are sad people: my parents.
+Come on Monday: not Tuesday as arranged.
+
+That cat could Not have done the damage.
+Come, go, stop, wait, see, ask, enquire:
+
+//31 Comma and Colon
+Check your account: it is now overdrawn.
+Please take the Minutes of that meeting.
+
+Kk,:kk,:kk, k,,:k,,:k,,:k,k k,k k,k k,,k
+Kk,:kk,:kk, k,,:k,,:k,,:k,k k,k k,k k,,k
+
+I require pen, pencil, paper and eraser.
+In summer, Jim Green likes to play gold.
+Never hurry work; more haste less speed.
+
+//32 Letters B and X
+ffb  ffb ffb fbb fbb fbb fbf fbf fbf fbbf
+ffb  ffb ffb fbb fbb fbb fbf fbf fbf fbbf
+
+bad ban bar bag verb robe barber problem
+big but buy bus bark bush double quibble
+job mob rob bow able best feeble because
+
+ssx ssx ssx sxx sxx sxx sxs sxs sxs sxxs
+axe tax wax exit klaxon excite exquisite
+
+//33 Letters B and X
+Alan calls this his black box of tricks.
+Both those goods trains made quick time.
+
+Beneath this stone a virgin lies, For her
+life held no terrors. A virgin born, a
+virgin died: No hits, no runs, no errors.
+
+Reality is an obstacle to hallucination.
+Hallucination is an obstacle to reality.
+
+//34 Letters Z and Dash
+aaz aaz aaz azz azz azz aza aza aza azza
+aaz aaz aaz azz azz azz aza aza aza azza
+
+jazz-amaze-dozen-zephyr-bizarre-frenzied
+quiz-vizor-sizes-zodiac-zoology-kingsize
+whiz-oopz-zappa-rdnzl-greggery-peccary--
+
+I think pop music has done more for oral
+intercourse than anything else that has
+ever happened, and vice versa. -- Frank
+Zappa
+
+//35 Letters Z and Dash
+If the aborigine drafted an IQ test, all
+of Western civilization would presumably
+flunk it. -- Stanley Garn
+
+Oregano, n.: The ancient Italian art of
+pizza folding. Cat, n.: Lapwarmer with
+built-in buzzer.
+
+aaZ-AAz-aaZ-Azz-aZZ-Azz-aZa-AzA-aZa-Azz
+aaZ-AAz-aaZ-Azz-aZZ-Azz-aZa-AzA-aZa-Azz
+
+//36 Alphabet Soup
+Dope will get you through times of no
+money better than money will get you
+through times of no dope. -- Gilbert
+Shelton
+
+It says he made us all to be just like
+him. So if we're dumb, then god is dumb,
+and maybe even a little ugly on the
+side. -- Frank Zappa
+
+//37 Alphabet Soup
+Republican boys date Democratic girls.
+They plan to marry Republican girls,
+but feel they are entitled to a little
+fun first.
+
+Demographic polls show that you have lost
+credibility across the board. Especially
+with those 14 year-old Valley girls.
+
+//38 Numbers 1, 2 and 3
+AQ1A SW2S DE3D AQ1A SW2S DE3D AQ1A SW2S
+
+There were 212 people going to the whist
+drive. The bus crashed and 12 of them were
+injured. Only 12...
+
+1: Everything depends. 2: Nothing is always.
+3: Everything is sometimes.
+
+//39 Numbers 1, 2 and 3
+This is lemma 1.1.  We start a new chapter
+so the numbers all go back to 1. -- Prof.
+Seager, C&O 312
+
+There are 111 men working on the ships.
+On Thursday 11 children passed the test.
+
+One teacher had 32 children in her class.
+Four times a week 11 girls went swimming.
+The other 21 wished to learn keyboarding.
+How sad is that...
+
+//40 Numbers 4 and 5
+AQ1A SW2S DE3D FR4F GT5G AQ1A SW2S DE3D
+
+The factory farmer owned 14 acres of good
+arable land and a shed with 1543 pigs, and
+one of those was me, Pig, number 1231.
+
+Their scores yesterday were 113 and 114.
+The tennis match was played on 14th May.
+
+//41 Numbers 4 and 5
+Please send 35 bags of coal on Wednesday.
+The assistant sold 45 metres of blue satin.
+
+Acid absorbs 45 times it's weight in excess
+Reality.
+
+For a good time, call 555-1354. For an
+adequate time call 555-3421
+
+//42 Numbers 6 and 7
+AQ1A  SW2S  DE3D  FR4F  GT5G  HY6H  JU7J
+
+He lives at 6 Avons, Birmingham B16 5TS.
+A tour has been arranged for 156 people.
+
+24, 36 and 144 are each divisible by 12.
+Kindly send 66 dozen oranges on Tuesday.
+
+//43 Numbers 6 and 7
+This bus company put on 166 extra buses.
+Out of 17 dozen pineapples, 117 were bad.
+
+God did not create the world in 7 days;
+he screwed around for 6 days and then
+pulled an all-nighter.
+
+The phone is being installed on 5th may.
+They applied for it about 36 months ago.
+
+//44 Numbers 8, 9 and Zero
+Q1A W2S E3D R4F T5G Y6H U7J I8K LO9L ;P0;
+
+The United States Army; 194 years of proud
+service, unhampered by progress.
+
+186,282 miles per second: It isn't just a
+good idea, it's the law.
+
+//45 Numbers 8, 9 and Zero
+2180, U.S. History question: What 20th
+Century U.S. President was almost impeached
+and what office did he later hold?
+
+71: 69 with two fingers up your ass. --
+George Carlin
+
+Did you know that there are 71.9 acres of
+nipple tissue in the U.S.
+
+//46 Symbol Madness 1  [ " $ % ' ]
+Did you know that Spiro Agnew is an anagram
+of "Grow a Penis"
+
+"By the time they had diminished from 50 to
+8, the other dwarves began to suspect 'Hungry'
+..." -- Gary Larson, "The Far Side"
+
+"Oh, I don't blame Congress. If I had $600
+billion at my disposal, I'd be irresponsible,
+too." -- Lichty & Wagner
+
+//47 Symbol Madness 1  [ " $ % ' ]
+According to the latest official figures,
+43% of all statistics are totally worthless.
+
+California, n.: From Latin "calor", meaning
+"heat" (as in English "calorie" or Spanish
+"caliente"); and "fornia'" for "sexual
+intercourse" or "fornication." Hence: Tierra
+de California, "the land of hot sex."
+-- Ed Moran
+
+Of what you see in books, believe 75%. Of
+newspapers, believe 50%. And of TV news,
+believe 25% -- make that 5% if the anchorman
+wears a blazer.
+
+//48 Symbol Madness 2  [ ? ( ) ! ]
+I know the answer! The answer lies within
+the heart of all mankind! The answer is
+twelve? (I think I'm in the wrong
+building.) -- Charles Schulz
+
+Is your job running? You'd better go
+catch it!
+
+"If the King's English was good enough for
+Jesus, it's good enough for me!" -- "Ma"
+Ferguson, Governor of Texas (circa 1920)
+
+//49 Symbol Madness 2  [ ? ( ) ! ]
+Fortune's graffito of the week (or maybe
+even month): Don't Write On Walls! (and
+underneath) You want I should type?
+
+"I don't object to sex before marriage,
+but two minutes before?!?"
+
+(In the force if Yoda's so strong, construct
+a sentence with words in the proper order
+then why can't he?)
+
+//50 Test Lesson
+aaa sss ddd fff jjj kkk lll ;;; asdfjkl;
+asdf jkl; asdf jkl; asdf jkl; asdf jkl;
+
+a jaffa salad; alaska salad; all salads;
+add a jaffa; add jaffa salad; a lad has
+a sad salad; sad dads sad jaffa salads;
+
+a sad lad; a sad dad; sad lass; all sad;
+flasks fall; lads fall; dads fall; alas;

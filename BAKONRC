@@ -1,0 +1,35 @@
+#----------------- Makin' Bakon Typing Tutor * version 0.3.2 ----------------#
+#------------------ Copyright (C) Stephen Webster 2002 2003 -----------------#
+
+# The Makin' Bakon configuration file.
+
+# You have a choice of nine colors for bold, fore(ground) and back(ground).
+# These are:
+#
+#      black, red, green, yellow, blue, magenta, cyan, white and trans.
+#
+# Setting the trans (transparent) option throughout will leave your terminal
+# settings unchanged, which suits some transparent terminals like Aterm and
+# Eterm. However, if you choose this path then you may want to set the
+# terminals BOLD to a different color. See your terminal man pages for
+# instructions. 
+#
+# The keyboard option can be either American (us) or British (uk)
+#
+# The program defaults are as follows...
+#
+#   fore=trans
+#   back=trans
+#   bold=trans
+#   keyboard=uk  
+#
+# but they will only be used if your definitions are incorrect. Command-line
+# options override any options you set here, even incorrect ones, so you might
+# find it quicker to muck about with those first...
+
+fore=trans
+back=trans
+bold=trans
+keyboard=uk  
+
+# Enjoy Makin' Bakon!

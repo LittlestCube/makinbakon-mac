@@ -1,0 +1,29 @@
+Makin' Bakon Typing Tutor * version 0.3.2
+Copyright (C) Stephen Webster 2002 2003
+
+--------------------------------- To Do's ------------------------------------
+
+                           --- PROJECT STUFF ---
+				
+1: Sound as a command-line option.
+2: Offer chioce between offensive and non-offensive fortune databases as a
+   command-line option.
+3: Scrolling help screen for the curses window, divided into sub-sections
+   and navigable via both an index and the up/down keys, a` la info.
+4: GTK display type with sprite graphics engine. (Find someone to do the
+   sprites...)
+5: Finger specific statistics with lesson recomendations.
+6: Replace Makefile with Automake.
+7: You tell me...
+
+                         --- CODE ENHANCEMENTS ---
+
+1: Class for specifically handling string formatting - presently handled as
+   required by individual classes: These are:- Display (format.cpp), Lesson
+   (lessonDefault.cpp), Gettext and Fortune. Use c++ iterators in all string
+   formatting functions, instead of 'c' style string indexing operator[] as
+   is presently the case.
+2: Class for handling file operations as fstream code was a real pain to
+   trace during recent update to gcc 3.2.
+
+------------------------------------------------------------------------------
