@@ -42,7 +42,7 @@ int Lesson::lessonDefault(int lnum, int i, const string menu[]) {
     string temp;                    // holds the complete lesson text
     unsigned long usecs = 10000;    // timer setting between text lines
     int quit = 0;                   // quit sig from lessonCheck()
-    unsigned int found = 0;         // holds position in lesson string
+    size_t found = 0;               // holds position in lesson string
     int n = 0;                      // less than 'lnum' goto next lesson
     
     while (1) {
@@ -64,7 +64,7 @@ int Lesson::lessonDefault(int lnum, int i, const string menu[]) {
 	
 	// print out the stats even when zero
 	if (statsFlag) out->scrStats(stats->getScore());
-
+	
 	while (1) {
 	    // split lesson on each newline
 	    if ((found = temp.find('\n', 0)) != temp.npos) {

@@ -59,8 +59,11 @@ int Lesson::lessonNumber(int i, const string menu[]) {
     int lnum = 0;     // the lesson number
     
     // start the default lesson
+    
     if (i == 0) {
 	lnum = score->getLesson();
+	
+	
 	if (lnum == 0) {
 	    lnum = LESSONONE;
 	    score->setLesson(lnum);

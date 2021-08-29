@@ -43,170 +43,182 @@
 using namespace std;
 
 Fortune::Fortune(const int i) throw(Error) : styloc(0), command(0), lnum(i) {
-    
-    try {
+	
+	try {
 	sty = Pigsty::Instance();
-    
+	
 	// set array size for command target ~/.pigsty/epigram
 	int ssize = sty->getEsize() + 1;
 
 	if ((styloc = new (std::nothrow) char[ssize]) == 0)
-	    throw Error("bad_alloc - can't create styloc: fortune.cpp");
+		throw Error("bad_alloc - can't create styloc: fortune.cpp");
 	
 	strcpy(styloc, sty->getEpigram());
 	
-    }
-    catch (Error err) {
+	}
+	catch (Error err) {
 	throw err;
-    }
-    catch (...) {
+	}
+	catch (...) {
 	if (styloc != 0) {
-	    delete[] styloc;
-	    styloc = 0;
+		delete[] styloc;
+		styloc = 0;
 	}
 	throw Error("unexpected exception during construction: fortune.cpp");
-    }
+	}
 }
 
 string& Fortune::getFortune() throw(Error) {
-    
-    Keyboard kboard;           // check for valid characters
-    ifstream insty;            // read our epigram
-    int fs = 0;                // return value for system
-    int size = 0;              // size of epigram
-    bool breakflag = false;    // exit loop only for right type of epigram
+	
+	Keyboard kboard;           // check for valid characters
+	ifstream insty;            // read our epigram
+	int fs = 0;                // return value for system
+	int size = 0;              // size of epigram
+	bool breakflag = false;    // exit loop only for right type of epigram
 
-    // create the command
-    if (lnum > 2 && lnum < 7) {
-	// set array size for program defined fortune command
-	int csize = strlen(ARCHIVE) + strlen(styloc) + 34;
-	
-	if ((command = new (std::nothrow) char[csize]) == 0) {
-	    delete[] styloc;
-	    styloc = 0;
-	    throw Error("bad_alloc - can't create command: fortune.cpp");
+	// create the command
+	if (lnum > 2 && lnum < 7)
+	{
+		// set array size for program defined fortune command
+		int csize = strlen(ARCHIVE) + strlen(styloc) + 34;
+		
+		if ((command = new (std::nothrow) char[csize]) == 0)
+		{
+			delete[] styloc;
+			styloc = 0;
+			throw Error("bad_alloc - can't create command: fortune.cpp");
+		}
+		strcpy(command, "fortune ");
+		strcat(command, ARCHIVE);
 	}
-	strcpy(command, "fortune ");
-	strcat(command, ARCHIVE);
-    }
-    else if (lnum == 2) {
-	// set array size for standard fortune command
-	int csize = strlen(styloc) + 27;
 	
-	if ((command = new (std::nothrow) char[csize]) == 0) {
-	    delete[] styloc;
-	    styloc = 0;
-	    throw Error("bad_alloc - can't create command: fortune.cpp");
+	else if (lnum == 2)
+	{
+		// set array size for standard fortune command
+		int csize = strlen(styloc) + 27;
+		
+		if ((command = new (std::nothrow) char[csize]) == 0)
+		{
+			delete[] styloc;
+			styloc = 0;
+			throw Error("bad_alloc - can't create command: fortune.cpp");
+		}
+		
+		strcpy(command, "fortune -s > ");
 	}
-	strcpy(command, "fortune -as > ");
-    }
-    else {
-	delete[] styloc;
-	styloc = 0;
-	throw Error("bad parameter in constructor: fortune.cpp");
-    }
-    if (lnum == 3)
-	strcat(command, "/poetry > ");
-    else if (lnum == 4)
-	strcat(command, "/startrek > ");
-    else if (lnum == 5)
-	strcat(command, "/offensive > ");
-    // command for "Distracted Pig"
-    else if (lnum == 6) {
-        srand(time(NULL));
-        int n = (rand() % 3) + 1;
 	
-        switch (n) {
-          case 1: strcat(command, "/offensive > ");
-            break;
-          case 2: strcat(command, "/startrek > ");
-            break;
-          case 3: strcat(command, "/poetry > ");
-            break;
-        }
-    }    
-    strcat(command, styloc);
-    // send error to /dev/null
-    strcat(command, " 2>/dev/null");
-    
-    int again = 0;    // check how many times we've gone round...
-    
-    while (1) {
+	else
+	{
+		delete[] styloc;
+		styloc = 0;
+		throw Error("bad parameter in constructor: fortune.cpp");
+	}
+	
+	if (lnum == 3)
+		strcat(command, "/poetry > ");
+	else if (lnum == 4)
+		strcat(command, "/startrek > ");
+	else if (lnum == 5)
+		strcat(command, "/offensive > ");
+	
+	// command for "Distracted Pig"
+	else if (lnum == 6)
+	{
+		srand(time(NULL));
+		int n = (rand() % 3) + 1;
+		
+		switch (n)
+		{
+		  case 1: strcat(command, "/offensive > ");
+			break;
+		  case 2: strcat(command, "/startrek > ");
+			break;
+		  case 3: strcat(command, "/poetry > ");
+			break;
+		}
+	}    
+	strcat(command, styloc);
+	// send error to /dev/null
+	strcat(command, " 2>/dev/null");
+	
+	int again = 0;    // check how many times we've gone round...
+	
+	while (1) {
 	// always start loop with an empty string
-	fortune = ""; 
+	fortune = "";
 	
 	fs = system(command);
 	if (fs < 0 || fs > 0)
-	    throw Error("can't execute system command: fortune.cpp");
+		throw Error("can't execute system command: fortune.cpp");
 
-        // open file for reading (set stream ptr to beginning)
-        insty.open(styloc, ios::in | ios::ate);
-	
-        if (insty.bad())
-            throw Error("can't open epigram file for reading: fortune.cpp");
+	// open file for reading (set stream ptr to beginning)
+	insty.open(styloc, ios::in | ios::ate);
+
+	if (insty.bad())
+		throw Error("can't open epigram file for reading: fortune.cpp");
 
 	if ((size = insty.tellg()) == 0) {
-            // try going round ten times as some fortunes are buggy...
-	    insty.close();
-	    if (again > 9)
+			// try going round ten times as some fortunes are buggy...
+		insty.close();
+		if (again > 9)
 		throw Error("fortune command returned null: fortune.cpp");
-	    else {
+		else {
 		again += 1;
 		continue;
-	    }
+		}
 	}
 
 	insty.seekg(0, ios::beg);
 	
 	// read the epigram into string
 	while (!insty.eof()) {
-	    
-	    string temp;
-	    
-            getline(insty, temp);
-	    temp += ' ';
-	    
-	    for (unsigned int i = 0; i < temp.size(); i++) { 
+		
+		string temp;
+		
+			getline(insty, temp);
+		temp += ' ';
+		
+		for (unsigned int i = 0; i < temp.size(); i++) { 
 		unsigned char ch = static_cast<unsigned char>(temp[i]);
 		// reject epigrams with characters we can't type
 		if (isspace(ch) || ch == kboard.askii.getAskii(ch)) {
-		    fortune += ch;
-		    breakflag = true;
+			fortune += ch;
+			breakflag = true;
 		}
 		else {
-		    breakflag = false;
-		    break;
+			breakflag = false;
+			break;
 		}
-	    }
-	    if (!breakflag) break;
+		}
+		if (!breakflag) break;
 	}
-        insty.close();
+		insty.close();
 	
-        if (breakflag) {
-	    delete[] command;
-	    command = 0;
-            fformat(fortune);
-            return fortune;
-        }
-    }
+		if (breakflag) {
+		delete[] command;
+		command = 0;
+			fformat(fortune);
+			return fortune;
+		}
+	}
 }
 
 // remove unwanted \n's, \t's and spaces
 void Fortune::fformat(string& str) {
-    
-    // if *str == '\t' or '\n' make *str == space, otherwise do nothing 
-    for (unsigned int i = 0; i < str.size(); i++) {
-        if (isspace(str[i])) {
-            str[i] = ' ';
-        }
-    }
-    // now remove unwanted spaces
-    for (unsigned int i = 0; i < str.size(); i++) {
-        if ((str[i] == ' ' && str[i+1] == ' ') || (i == 0 && str[i] == ' ')) {
-	    str.erase(i, 1);
-	    i--;
+	
+	// if *str == '\t' or '\n' make *str == space, otherwise do nothing 
+	for (unsigned int i = 0; i < str.size(); i++) {
+		if (isspace(str[i])) {
+			str[i] = ' ';
+		}
 	}
-    }
-    // Display member function out->scrUI() expects last character == " "
-    if (str[str.size()-1] != ' ') str.append(" ");
+	// now remove unwanted spaces
+	for (unsigned int i = 0; i < str.size(); i++) {
+		if ((str[i] == ' ' && str[i+1] == ' ') || (i == 0 && str[i] == ' ')) {
+		str.erase(i, 1);
+		i--;
+	}
+	}
+	// Display member function out->scrUI() expects last character == " "
+	if (str[str.size()-1] != ' ') str.append(" ");
 }

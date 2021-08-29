@@ -90,7 +90,7 @@ have_fortune:
 	    echo "Working" ; \
 	else \
 	    echo "Not Working!" ; \
-	    $(MAKE) err ERR=$(FORTUNE_ERR) ; \
+	    $(MAKE) err ERR=$(FORTUNE_ERR) -j8 ; \
 	fi
 
 have_curses:
@@ -99,7 +99,7 @@ have_curses:
 	for i in $(CURSES_INCS) ; do \
 	    if [ -z "`echo $(FOUND) | grep $$i`" ] ; then \
                 echo "($$i) Not Found! " ; \
-		$(MAKE) err ERR=$(CURSES_ERR) ; \
+		$(MAKE) err ERR=$(CURSES_ERR) -j8 ; \
 	        exit ; \
 	    fi ; \
 	done ; \
@@ -109,10 +109,10 @@ make_archive:
 	echo -n "Searching for the strfile command... "
 	if [ -z "`echo $(MY_PATH) | grep '/strfile'`" ] ; then \
 	    echo "Not Found!" ; \
-	    $(MAKE) err ERR=$(STRFILE_ERR) ; \
+	    $(MAKE) err ERR=$(STRFILE_ERR) -j8 ; \
 	else \
 	    echo "Found" ; \
-	    cd `pwd`/archive && $(MAKE) DODATS='$(MY_PATH)' ; \
+	    cd `pwd`/archive && $(MAKE) DODATS='$(MY_PATH)' -j8 ; \
 	fi
 
 make_bakon:
@@ -125,13 +125,16 @@ make_bakon:
 	    echo "Done" ; \
 	    echo "Makin' Bakon. This could take a while..." ; \
 	    echo "" ; \
-	    $(MAKE) CURSES_PATH='$(CURSES_PATH)' ; \
+	    $(MAKE) CURSES_PATH='$(CURSES_PATH)' -j8 ; \
 	fi
 	
+	echo "#!/bin/bash\ncd \c" > bakon
+	cd src && echo "`pwd`\c" >> ../bakon
+	echo " && ./bakon" >> bakon
+	chmod +x bakon
+	
 	echo ""
-	echo "Become root and do 'make install'. If you have installed this"
-	echo "package before then do 'make uninstall' first. Do 'make help'"
-	echo "for a complete list of available make commands..."
+	echo "Made Bakon! Run './bakon' to start."
 	
 #------------------------------- make install -------------------------------#
 
@@ -233,6 +236,8 @@ clean:
 	    echo "Removing executable from src directory" ; \
 	    rm -f src/bakon ; \
 	fi
+	
+	rm -f bakon
 	
 #-------------------------------- exit make ---------------------------------#
 
