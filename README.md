@@ -1,3 +1,7 @@
+To run the program, you must `brew install ncurses` and `brew install fortune` if you haven't already.
+
+Then you may simply `make` and `./bakon`.
+
 Original README, prettied up with markdown:
                                                                               
 #                         Makin' Bakon Typing Tutor                           
